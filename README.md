@@ -25,9 +25,9 @@ https://www.amazon.com.au/dp/B08761Z5K9
 3) Check the colours on your JST GH 6pin cables are the same as the author. Mine were different hence nothing worked (cables purchased online seem to have different colour orders). I had to disconnect and swap the green and white wires, as mine were backwards compared to the ones the author used. You can use a needle and carefully disconnect the pins and change the order under a magnifying glass. You probably have one in your soldering station if you are soldering these tiny boards anyway. Once I did that, it all worked perfectly.
 
 TROUBLESHOOTING NOTES:
--If you turn the printer on and insert paper, feed it and advance it to the first stop, and you get an error, then the main board is not connected to the JST GH 6pin cable (i.e. blue pill and RFID aren't connected).
--If you turn the printer on and it's not detecting any labels, you do the above, and it's still not detecting anything, then you have a dry solder somewhere on the blue pill (inspect them all with a magnifying glass), or one of the JST GH 6pin cables is not seated properly.
--When it works, you should see your printer detect your labels per whatever firmware options you selected (even if there's none in the printer). And when you print some, and then restart the printer, the count will reset to full. i.e. start at 120, print a label - now 119, restart it goes back to 120.
+ * If you turn the printer on and insert paper, feed it and advance it to the first stop, and you get an error, then the main board is not connected to the JST GH 6pin cable (i.e. blue pill and RFID aren't connected).
+ * If you turn the printer on and it's not detecting any labels, you do the above, and it's still not detecting anything, then you have a dry solder somewhere on the blue pill (inspect them all with a magnifying glass), or one of the JST GH 6pin cables is not seated properly.
+ * When it works, you should see your printer detect your labels per whatever firmware options you selected (even if there's none in the printer). And when you print some, and then restart the printer, the count will reset to full. i.e. start at 120, print a label - now 119, restart it goes back to 120.
  
 ## Assembly
 
